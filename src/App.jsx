@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import axios from "axios";
 import Weather from "./componets/Weather";
-import Loader from "./componets/loader";
+import Loader from "./componets/Loader";
 
 function App() {
   const [coords, setCoords] = useState();
